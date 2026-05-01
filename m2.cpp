@@ -10,13 +10,13 @@ int main()
     bool sair = false; //variável que controla a execução do jogo (case 3);
     do
     {
-        cout << "*****************\n"
+        cout << "* * * * * * * * *\n"
              << "* Senha Univali *\n"
-             << "*****************\n"
+             << "* * * * * * * * *\n"
              << "*   1 - Jogar   *\n"
              << "*   2 - Sobre   *\n"
              << "*   3 - Sair    *\n"
-             << "*****************\n"
+             << "* * * * * * * * *\n"
              << "Escolha uma opção: ";
         int escolha=0;
         cin >> escolha; 
