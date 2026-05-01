@@ -141,14 +141,9 @@ int main()
             case 2:
             {
                 system("cls");
-                cout << "Alunos envolvidos:"
+                cout << "Feito por:"
                      << "\n* * * * * * * * * * * * * * * * *"
                      << "\n*    Gabriel Batista da Luz     *"
-                     << "\n*      Gabriel Dallagnoli       *"
-                     << "\n*   Guilherme Figleski Anhaia   *"
-                     << "\n*   Henrique Luiz Gallassini    *"
-                     << "\n*      Hiago Ronaldo Gomes      *"
-                     << "\n*    William Edward Bergmann    *"
                      << "\n* * * * * * * * * * * * * * * * *"
                      << "\nDisciplina: Algoritmos e programação (Turma 2, noturno)."
                      << "\nProfessor: Rafael Ballotin Martins."
