@@ -140,6 +140,7 @@ int main()
 
             case 2:
             {
+                system("cls");
                 cout << "Alunos envolvidos:"
                      << "\n* * * * * * * * * * * * * * * * *"
                      << "\n*    Gabriel Batista da Luz     *"
@@ -163,6 +164,7 @@ int main()
 
             case 3:
             {
+                system("cls");
                 cout << "Saindo...";
                 sair = true; //quebra do loop principal, encerrando o programa.
             }
@@ -170,6 +172,7 @@ int main()
 
             default:
             {
+                system("cls");
                 cout << "Opção inválida, pressione \"Enter\" para retornar ao menu...";
                 cin.ignore();
                 cin.get();
