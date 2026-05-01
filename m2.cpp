@@ -10,9 +10,13 @@ int main()
     bool sair = false; //variável que controla a execução do jogo (case 3);
     do
     {
-        cout << "1 - Jogar" << endl
-             << "2 - Sobre" << endl
-             << "3 - Sair " << endl
+        cout << "*****************\n"
+             << "* Senha Univali *\n"
+             << "*****************\n"
+             << "*   1 - Jogar   *\n"
+             << "*   2 - Sobre   *\n"
+             << "*   3 - Sair    *\n"
+             << "*****************\n"
              << "Escolha uma opção: ";
         int escolha=0;
         cin >> escolha; 
@@ -32,8 +36,8 @@ int main()
 
                 while (a==b || a==c || a==d || b==c || b==d || c==d) 
                 {
-                    a = rand()%6+1;                 //caso a atribuição inicial contenha repetições,
-                    b = rand()%6+1;                 //entra em um loop até achar 4 valores distintos.
+                    a = rand()%6+1; //caso a atribuição inicial contenha repetições,
+                    b = rand()%6+1; //entra em um loop até achar 4 valores distintos.
                     c = rand()%6+1;
                     d = rand()%6+1;
                 }
@@ -160,7 +164,7 @@ int main()
             case 3:
             {
                 cout << "Saindo...";
-                sair = true; //quebra do look do while, encerrando o programa.
+                sair = true; //quebra do loop principal, encerrando o programa.
             }
             break;
 
